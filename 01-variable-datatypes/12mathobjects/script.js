@@ -28,6 +28,6 @@ x = Math.max(95, 44, 33);
 x = Math.random();
 
 //Get a random number between 1 and 100
-x = Math.floor(Math.random() * 1000 + 1);
+x = Math.floor(Math.random() * 100 + 1);
 
 console.log(x);
