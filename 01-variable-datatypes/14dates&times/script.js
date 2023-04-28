@@ -28,4 +28,8 @@ d = d.valueOf();
 //create a date from timestamp
 d = new Date(51236123992);
 
+//convert from millisecons to seconds
+d = Math.floor(Date.now() / 1000);
+console.log(d);
+
 console.log(d);
