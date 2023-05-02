@@ -26,3 +26,9 @@ const arr4 = [...arr1, ...arr2];
 
 //Result of ...spread
 console.log(arr4);
+
+//Using slice
+const arr5 = arr1.slice(0, 4).concat(arr2);
+
+//Result of slice
+console.log(arr5);

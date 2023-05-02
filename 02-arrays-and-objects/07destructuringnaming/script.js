@@ -16,7 +16,9 @@ const person = {
   age,
 };
 
-console.log(person.age);
+// console.log(person.lastName);
+// console.log(person.firstName);
+// console.log(person.age);
 
 //Destructuring object properties
 const todo = {
@@ -27,27 +29,27 @@ const todo = {
   },
 };
 
-// const id = todo.id;
-// const title = todo.title;
-// console.log(id, title);
+const id = todo.id;
+const title = todo.title;
+console.log(id, title);
 
 //destructuring
 // const { id, title, user } = todo;
 // console.log(user);
 
-const {
-  id: todoID, //rename id to todoID
-  title,
-  user: { name },
-} = todo;
+// const {
+//   id: todoID, //rename id to todoID
+//   title,
+//   user: { name },
+// } = todo;
 
-//Destructuring arrays & using the rest/spread operator
-const numbers = [23, 67, 33, 49, 52];
+// //Destructuring arrays & using the rest/spread operator
+// const numbers = [23, 67, 33, 49, 52];
 
-// const [first, second] = numbers;
-// console.log(first, second);
+// // const [first, second] = numbers;
+// // console.log(first, second);
 
-const [first, second, ...rest] = numbers;
-console.log(first, second, rest);
+// const [first, second, ...rest] = numbers;
+// console.log(first, second, rest);
 
 // console.log(todoID);
