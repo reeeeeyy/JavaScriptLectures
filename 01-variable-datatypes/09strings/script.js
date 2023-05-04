@@ -28,34 +28,34 @@ x = s.__proto__;
 x = s.toUpperCase();
 x = s.toLowerCase();
 
-// charAt - returns the character at the specified index
-x = s.charAt(0);
+// // charAt - returns the character at the specified index
+// x = s.charAt(0);
 
-//returns the index of the first occurence
-x = s.indexOf("d");
+// //returns the index of the first occurence
+// x = s.indexOf("d");
 
-// substring - search a string for a specified value
-x = s.substring(2, 4);
-x = s.substring(7);
+// // substring - search a string for a specified value
+// x = s.substring(2, 4);
+// x = s.substring(7);
 
-// slice() - extracts a part of a string and returns a new string
-x = s.slice(1, 7);
-x = s.slice(-11);
-x = s.slice(-11, -6);
+// // slice() - extracts a part of a string and returns a new string
+// x = s.slice(1, 7);
+// x = s.slice(-11);
+// x = s.slice(-11, -6);
 
-//trim() - remves whitespace from beginning until the end of string
-x = "                     Hello World";
-x = x.trim();
+// //trim() - remves whitespace from beginning until the end of string
+// x = "                     Hello World";
+// x = x.trim();
 
-//replace() - replace all instances of a string
-// x = s.replace("World", "Ryan");
+// //replace() - replace all instances of a string
+// // x = s.replace("World", "Ryan");
 
-//includes() - returns true if the string is found
-x = s.includes("Wo");
+// //includes() - returns true if the string is found
+// x = s.includes("Wo");
 
-//calueOf() - returns the primitive value of a variable
-x = s.valueOf();
+// //calueOf() - returns the primitive value of a variable
+// x = s.valueOf();
 
-x = s.split("");
+// x = s.split("");
 
 console.log(x);
